@@ -20,12 +20,12 @@ def load_gps_data(filename="gps_points.txt"):
     return coords
 
 # --- Step 2: Plot on world map ---
-def plot_gps_points(coords, map_image="world_map.jpg"):
+def plot_gps_points(coords, map_image="Plate-Carree-Projection.png"):
     """Plots a list of GPS coordinates on a world map image.
 
     Args:
         coords (list[tuple[float, float]]): A list of (latitude, longitude) tuples to plot.
-        map_image (str, optional): The path to the world map image file. Defaults to "world_map.jpg".
+        map_image (str, optional): The path to the world map image file. Defaults to "Plate-Carree-Projection.png".
 
     Raises:
         FileNotFoundError: If the `map_image` file is not found.

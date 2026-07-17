@@ -1,3 +1,7 @@
+import math
+import matplotlib.pyplot as plt
+from PIL import Image
+
 # --- Step 1: Load and filter data ---
 def load_gps_data(filename="gps_points.txt"):
     """Loads GPS data from a file, filters invalid points, and returns valid coordinates.

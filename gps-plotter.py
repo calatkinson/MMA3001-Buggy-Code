@@ -41,7 +41,7 @@ def plot_gps_points(coords, map_image="Plate-Carree-Projection.png"):
     plt.imshow(img, extent=[-180, 180, -90, 90])
     lats, lons = zip(*coords)
     plt.scatter(lons, lats, c='red', s=10)
-    plt.title("GPS Points on World Map")
+    #plt.title("GPS Points on World Map")
     plt.xlabel("Longitude")
     plt.ylabel("Latitude")
     plt.show()
